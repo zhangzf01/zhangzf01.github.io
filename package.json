@@ -1,0 +1,12 @@
+{
+  "name": "shuohe1995.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preview": "live-server --port=8080 --open=/",
+    "start": "npm run preview"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
