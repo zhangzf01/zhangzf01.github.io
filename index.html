@@ -91,7 +91,7 @@ h1, h2 { color: #1a3a5c; }
 
 <h2>Brief Biography</h2>
 
-I am currently a first-year PhD student at <a href="https://www.uq.edu.au/">the University of Queensland (UQ)</a>, Australia. Prior to this, I earned my Bachelor's degree from <a href="https://www.uestc.edu.cn/"> Chongqing University (CQU)</a>, China. 
+I am currently a second-year PhD student at <a href="https://www.uq.edu.au/">the University of Queensland (UQ)</a>, Australia. Prior to this, I earned my Bachelor's degree from <a href="https://www.cqu.edu.cn/"> Chongqing University (CQU)</a>, China. 
 During my research journey, I am super fortunated to be advised by Dr. <a href="https://about.uq.edu.au/experts/26509" target="_blank">Miao Xu</a> at <a href="https://www.uq.edu.au/" target="_blank">UQ</a> and have close collaboration with Dr. <a href="https://lfeng1995.github.io" target="_blank">Lei Feng</a> at <a href="https://www.seu.edu.cn/" target="_blank">SEU</a> and Dr. <a href="https://shuohe1995.github.io" target="_blank">Shuo He</a> at <a href="https://www.ntu.edu.sg/" target="_blank">NTU</a>.
 <br/>
 
@@ -169,13 +169,13 @@ Recently, I have been working on a paper about agentic RL with conversational ag
 
     <div class="work-card" data-topic="ai-safety">
       <div class="work-figures">
-        <img src="publications/safety/Backdoor_CLIP/backdoor_clip.png" alt="Backdoor CLIP">
+        <img src="publications/safety/tuning.pdf" alt="RVPT" style="height: 80%">
       </div>
       <div class="work-info">
-        <p class="work-title">A Closer Look at Backdoor Attacks on CLIP</p>
-        <p class="work-authors">Shuo He, <b>Zhifang Zhang</b>, Feng Liu, Roy Ka-Wei Lee, Bo An, Lei Feng</p>
-        <p class="work-meta"><b>ICML 2025</b> &nbsp; <a href="https://proceedings.mlr.press/v267/he25v.html">Paper</a> &nbsp; <a href="https://github.com/shuohe1995/Decomposition-Backdoor-CLIP">Code</a></p>
-        <p class="work-desc">We study how backdoor attacks change CLIP by breaking image features into patches, attention heads, and MLPs, we find different attacks infect different parts of the model, and we use these findings to detect and repair infected parts (or filter suspicious samples) at inference time.</p>
+        <p class="work-title">Tuning Vision-Language Models with Candidate Labels by Prompt Alignment</p>
+        <p class="work-authors"><b>Zhifang Zhang</b>, Yuwei Niu, Xin Liu, Beibei Li</p>
+        <p class="work-meta"><b>DASFAA 2025</b>  &nbsp; <a href="https://arxiv.org/abs/2407.07638">Paper</a></p>
+        <p class="work-desc">We present the first study on fine-tuning vision-language models when only candidate (ambiguous) labels are available, and propose a framework that disambiguates candidate labels by aligning the learnable and handcrafted prompt predictions, to improve robustness to label ambiguity.</p>
       </div>
     </div>
     <div class="work-card" data-topic="ai-safety">
@@ -187,17 +187,6 @@ Recently, I have been working on a paper about agentic RL with conversational ag
         <p class="work-authors">Xinpeng Ti<sup>*</sup>, Wentao Ye<sup>*</sup>, <b>Zhifang Zhang</b><sup>*</sup>, Junbo Zhao, Chang Yao, Lei Feng, Haobo Wang</p>
         <p class="work-meta"><b>EMNLP 2025 Findings</b> &nbsp; <a href="https://aclanthology.org/2025.findings-emnlp.395/">Paper</a></p>
         <p class="work-desc">We provide a comprehensive survey on reverse engineering techniques for language models, covering various attacks that aim to access model internals (e.g., architecture), training data, or user prompt, while also reviewing existing protective strategies against these attacks.</p>
-      </div>
-    </div>
-    <div class="work-card" data-topic="ai-safety">
-      <div class="work-figures">
-        <img src="publications/safety/tuning.pdf" alt="RVPT" style="height: 80%">
-      </div>
-      <div class="work-info">
-        <p class="work-title">Tuning Vision-Language Models with Candidate Labels by Prompt Alignment</p>
-        <p class="work-authors"><b>Zhifang Zhang</b>, Yuwei Niu, Xin Liu, Beibei Li</p>
-        <p class="work-meta"><b>DASFAA 2025</b>  &nbsp; <a href="https://arxiv.org/abs/2407.07638">Paper</a></p>
-        <p class="work-desc">We present the first study on fine-tuning vision-language models when only candidate (ambiguous) labels are available, and propose a framework that disambiguates candidate labels by aligning the learnable and handcrafted prompt predictions, to improve robustness to label ambiguity.</p>
       </div>
     </div>
 
@@ -230,13 +219,13 @@ Recently, I have been working on a paper about agentic RL with conversational ag
 
   <div class="work-card" data-topic="ai-safety">
     <div class="work-figures">
-    <img src="publications/safety/presafe.pdf" alt="RVPT" style="height: 80%">
+    <img src="publications/safety/antiskillbench.png" alt="AntiSkillBench">
   </div>
   <div class="work-info">
-    <p class="work-title">Towards Safer Large Reasoning Models by Promoting Safety Decision-Making before Chain-of-Thought Generation</p>
-    <p class="work-authors">Jianan Chen, <b>Zhifang Zhang</b>, Shuo He, Linan Yue, Lei Feng, Min-Ling Zhang </p>
-    <p class="work-meta"><b>Preprint</b> &nbsp; <a href="https://arxiv.org/pdf/2603.17368">Paper</a></p>
-    <p class="work-desc">We find that CoT degrades reasoning model safety and propose PreSafe, which extracts safety signals from a CoT-disabled model and backpropagates them into the LRM's latent space via an auxiliary head, enabling refusal before CoT.</p>
+    <p class="work-title">When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills</p>
+    <p class="work-authors">Yongli Xiang<sup>*</sup>, <b>Zhifang Zhang</b><sup>*</sup>, Bojun Yang, Ziming Hong, Lei Feng, Miao Xu, Tongliang Liu</p>
+    <p class="work-meta"><b>Preprint</b> &nbsp; <a href="https://arxiv.org/abs/2608.03700">Paper</a> &nbsp; <a href="https://yonglixiang.github.io/AntiSkillBench">Project</a></p>
+    <p class="work-desc">We introduce AntiSkillBench, a benchmark showing that persona skills distilled from user interaction histories leak private attributes and enable agents to impersonate users, and that existing defenses work inconsistently across distillation methods.</p>
   </div>
 </div>
 
